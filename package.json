@@ -17,6 +17,7 @@
     "mockery": "^1.4.0"
   },
   "dependencies": {
-    "client": "git://github.com/utilise/client"
+    "client": "git://github.com/utilise/client",
+    "colors": "^1.1.0"
   }
 }

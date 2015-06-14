@@ -1,10 +1,12 @@
 var client = require('client')
+  , colors = require('colors')
 
 module.exports = colorfill()
 
 function colorfill(){
-  client && ['red', 'green', 'bold', 'grey'].forEach(function(color) {
-    Object.defineProperty(String.prototype, color, {
+  /* istanbul ignore next */
+  client && ['red', 'green', 'bold', 'grey', 'strip'].forEach(function(color) {
+    ('')[color] !== '' && Object.defineProperty(String.prototype, color, {
       get: function () {
         return String(this)
       }
