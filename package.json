@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "client": "git+https://github.com/utilise/client.git",
-    "colors": "^1.1.0"
+    "colors": "^1.1.0",
+    "has": "git+https://github.com/utilise/has.git",
+    "is": "git+https://github.com/utilise/is.git"
   }
 }

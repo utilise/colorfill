@@ -1,5 +1,4 @@
 var expect = require('chai').expect
-  , client = require('client')
   , colorfill = require('./')
 
 describe('colorfill', function() {
