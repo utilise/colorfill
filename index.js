@@ -1,7 +1,7 @@
-var client = require('client')
+var client = require('utilise.client')
   , colors = !client && require('colors')
-  , has = require('has')
-  , is = require('is')
+  , has = require('utilise.has')
+  , is = require('utilise.is')
 
 module.exports = colorfill()
 
